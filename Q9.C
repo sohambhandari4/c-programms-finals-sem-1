@@ -1,0 +1,15 @@
+//program to accept character & display its ASCII value and its next &
+// previous character.
+
+#include <stdio.h>
+int main()
+{
+char ch;
+printf("Enter the character: \n");
+scanf("%ch", &ch);
+printf("ASCII value of %ch is %d \n", ch,ch);
+printf("Previous character: %c\n", ch - 1);
+printf("Next character: %c\n", ch + 1);
+
+return 0;
+}
